@@ -1,0 +1,28 @@
+.body {
+  background-color: brown;
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.layout-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr; 
+  gap: 20px; 
+}
+
+#sidebar {
+  padding: 15px;
+  background-color: rgb(13, 13, 186, 1);
+}
+
+#articles {
+  background-color: rgba(59, 228, 12, 1);
+  padding: 15px;
+}
+
+#articles img {
+  max-width: 100%;
+  height: auto;
+}
